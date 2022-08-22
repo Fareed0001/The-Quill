@@ -1,0 +1,266 @@
+.phone {
+  display: none;
+}
+
+body {
+  background-color: #f0f8ff;
+  font-family: 'Noto Serif HK', serif;
+}
+
+body, .footer-list-text, .nav-link {
+  color: white;
+}
+
+form {
+  color: black;
+  width: 70%;
+}
+
+a.nav-link:hover, .footer-list-text:hover, .fa-brands:hover {
+  color: #6495ed;
+}
+
+.logo-img, .carousel-categories {
+  background-color: white;
+}
+
+.nav-link, .carousel-text, .footer-list-text, .trending-top-text {
+  font-size: 1.2rem;
+}
+
+.nav-link, .footer-list-text, .stretched-link {
+  text-decoration: none;
+}
+
+/* NAVBAR */
+.logo-img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+/* TRENDING */
+.trending-container {
+  position: relative;
+}
+
+.trending-bottom-text {
+  position: absolute;
+  width: 96%;
+  bottom: 10%;
+  left: 2%;
+}
+
+.trending-top-text {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-weight: bold;
+}
+
+.trending-img {
+  width: 100%;
+  height: auto;
+}
+
+/* CAROUSEL */
+.carousel-container {
+  margin-bottom: 2%;
+}
+
+.carousel-categories {
+  color: #002387;
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.breaking-caret {
+  margin-left: 8%;
+}
+
+/* CARD */
+.post-date {
+  color: #dcdcdc;
+}
+
+.stretched-link {
+  color: #87cefa;
+}
+
+.card-img {
+  width: 10rem;
+  height: 15rem;
+}
+
+.card {
+  background-color: #737371;
+}
+
+/* FOOTER */
+.form-floating {
+  margin-bottom: 3%;
+}
+
+/* TABLET */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  /* NAVBAR */
+  .logo-img {
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  /* CAROUSEL */
+  .carousel-categories {
+    font-size: 1.2rem;
+  }
+
+  /* CARD */
+  .card-img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    padding: 0 5%;
+  }
+
+  .follow-div {
+    padding-top: 5%;
+  }
+}
+
+/* PHONE */
+@media screen and (max-width: 479px) {
+  .pc-and-tab {
+    display: none;
+  }
+
+  .phone {
+    display: block;
+  }
+
+  /* NAVBAR */
+  .logo-img {
+    width: 80%;
+  }
+
+  .name {
+    text-align: center;
+  }
+
+  .fa-bars {
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  .fa-bars:hover {
+    color: grey;
+  }
+
+  .navbar-toggler {
+    float: right;
+  }
+
+  .nav-delete {
+    display: none;
+  }
+
+  .nav-links-div {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 1s;
+    padding-top: 10%;
+  }
+
+  .fa-xmark {
+    color: #fff;
+  }
+
+  .inside-nav-button {
+    position: absolute;
+    top: 2%;
+    right: 10px;
+  }
+
+  a.phone-nav-link {
+    margin: auto;
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  /* BREAKING NEWS */
+  .carousel-categories {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 15%;
+  }
+
+  /* CARD */
+  .card-img {
+    width: 10rem;
+    height: 100%;
+  }
+
+  .footer-container {
+    padding: 0 10%;
+  }
+
+  .follow-div {
+    padding-top: 10%;
+  }
+
+  .footer-list-text {
+    font-size: 1rem;
+    line-height: 200%;
+  }
+
+  .footer-hr {
+    width: 40%;
+  }
+
+  .fa-brands {
+    padding-right: 10%;
+  }
+
+  .icon-text-whatsapp:hover {
+    color: #25D366;
+  }
+
+  .icon-text-instagram:hover {
+    color: #c837ac;
+  }
+
+  .icon-text-twitter:hover {
+    color: #1da1f2;
+  }
+
+  .icon-text-facebook:hover {
+    color: #4267b2;
+  }
+
+  .copy-hr-1, .copy-hr-2 {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+
+  .copy-right {
+    text-align: center;
+  }
+
+  .no-hover {
+    pointer-events: none;
+  }
+}

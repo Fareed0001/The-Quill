@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Quill</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="dribble\quill-pen-LOGO.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/a9a7c27c71.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+HK&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="pc-and-tab">
+    <div class="">
+      <header class="blog-header">
+        <nav class="navbar navbar-ldark bg-dark">
+          <div class="container-fluid row">
+            <div class="col-1 nav-img-column">
+              <img class="logo-img" src="dribble\quill-pen-LOGO.png" alt="logo">
+            </div>
+            <div class="col-11 nav-link-col">
+              <nav class="nav d-flex justify-content-between">
+                <a class="p-2 nav-link" href="#">World</a>
+                <a class="p-2 nav-link" href="#">Sports</a>
+                <a class="p-2 nav-link" href="#">Politics</a>
+                <a class="p-2 nav-link" href="#">Fashion</a>
+                <a class="p-2 nav-link" href="#">Science & Tech</a>
+                <a class="p-2 nav-link" href="#">Food</a>
+                <a class="p-2 nav-link" href="#">TV & Movies</a>
+                <a class="p-2 nav-link" href="#">Weather</a>
+            </div>
+
+          </div>
+        </nav>
+      </header>
+    </div>
+
+    <main class="">
+      <div class="trending-container">
+        <img class="trending-img" src="dribble\home.jpg" alt="home">
+        <div class="trending-bottom-text">
+          <div class="px-0">
+            <h1 class="display-4 fst-italic">Title of currently trending gist</h1>
+            <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+            <p class="lead mb-0"><a href="#" class="text-white fw-bold stretched-link">Continue reading...</a></p>
+          </div>
+        </div>
+        <div class="trending-top-text">TRENDING</div>
+      </div>
+
+      <!-- CAROUSEL -->
+      <div class="container-fluid py-5 bg-dark carousel-container">
+        <div class="row">
+
+          <div class="col-sm-3 col-lg-2">
+            <button type="button" class="btn btn-primary btn-lg breaking-caret">Breaking News</button>
+          </div>
+          <!--start code-->
+          <div class="col-sm-9 col-lg-10 pl-md-4 py-2">
+            <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <p class="carousel-categories">World</p>
+                    </div>
+                    <div class="col-sm-10">
+                      <p class="carousel-text">This is a basic bootstrap sorce code for make responsive magazine breaking news carousel</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <p class="carousel-categories">Sports</p>
+                    </div>
+                    <div class="col-sm-10">
+                      <p class="carousel-text">This is a basic bootstrap sorce code for make responsive magazine breaking news carousel</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <p class="carousel-categories">Politics</p>
+                    </div>
+                    <div class="col-sm-10">
+                      <p class="carousel-text">This is a basic bootstrap sorce code for make responsive magazine breaking news carousel</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <p class="carousel-categories">Fashion</p>
+                    </div>
+                    <div class="col-sm-10">
+                      <p class="carousel-text">This is a basic bootstrap sorce code for make responsive magazine breaking news carousel</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <p class="carousel-categories">Science</p>
+                    </div>
+                    <div class="col-sm-10">
+                      <p class="carousel-text">This is a basic bootstrap sorce code for make responsive magazine breaking news carousel</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <p class="carousel-categories">Food</p>
+                    </div>
+                    <div class="col-sm-10">
+                      <p class="carousel-text">This is a basic bootstrap sorce code for make responsive magazine breaking news carousel</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <p class="carousel-categories">Movies</p>
+                    </div>
+                    <div class="col-sm-10">
+                      <p class="carousel-text">This is a basic bootstrap sorce code for make responsive magazine breaking news carousel</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <p class="carousel-categories">Weather</p>
+                    </div>
+                    <div class="col-sm-10">
+                      <p class="carousel-text">This is a basic bootstrap sorce code for make responsive magazine breaking news carousel</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!--end code-->
+        </div>
+      </div>
+      <!-- CAROUSEL ENDING -->
+
+      <div class="container">
+
+        <div class="World-and-sports">
+          <div class="row mb-2">
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative card world-card">
+                <div class="col-auto d-none d-lg-block">
+                  <img class="card-img" src="dribble\world.jpg" alt="thumbnail">
+                </div>
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 card-categories-text">World</strong>
+                  <h3 class="mb-0">Post Title</h3>
+                  <div class="mb-1 post-date">post date</div>
+                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading..</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative card sports-card">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 card-categories-text">Sport</strong>
+                  <h3 class="mb-0">Post Title</h3>
+                  <div class="mb-1 post-date">post date</div>
+                  <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading..</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <img class="card-img" src="dribble\sport1.jpg" alt="thumbnail">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="politics-and-fashion">
+          <div class="row mb-2">
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative card politics-card">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 card-categories-text">Politics</strong>
+                  <h3 class="mb-0">Post Title</h3>
+                  <div class="mb-1 post-date">post date</div>
+                  <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading..</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <img class="card-img" src="dribble\politics.jpg" alt="thumbnail">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative card fashion-card">
+                <div class="col-auto d-none d-lg-block">
+                  <img class="card-img" src="dribble\fashion.jpg" alt="thumbnail">
+                </div>
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 card-categories-text">Fashion</strong>
+                  <h3 class="mb-0">Post Title</h3>
+                  <div class="mb-1 post-date">post date</div>
+                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading..</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="science-tech-and-food">
+          <div class="row mb-2">
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative card science-and-tech-card">
+                <div class="col-auto d-none d-lg-block">
+                  <img class="card-img" src="dribble\tech3.jpg" alt="thumbnail">
+                </div>
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 card-categories-text">Science & Tech</strong>
+                  <h3 class="mb-0">Post Title</h3>
+                  <div class="mb-1 post-date">post date</div>
+                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading..</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative card food-card">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 card-categories-text">Food</strong>
+                  <h3 class="mb-0">Post Title</h3>
+                  <div class="mb-1 post-date">post date</div>
+                  <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading..</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <img class="card-img" src="dribble\food.jpg" alt="thumbnail">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="tv-movies-and-weather">
+          <div class="row mb-2">
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative card tv-and-movies-card">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 card-categories-text">TV and Movies</strong>
+                  <h3 class="mb-0">Post Title</h3>
+                  <div class="mb-1 post-date">post date</div>
+                  <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading..</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <img class="card-img" src="dribble\movie1.jpg" alt="thumbnail">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative card weather-card">
+                <div class="col-auto d-none d-lg-block">
+                  <img class="card-img" src="dribble\weather.jpg" alt="thumbnail">
+                </div>
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 card-categories-text">Weather</strong>
+                  <h3 class="mb-0">Post Title</h3>
+                  <div class="mb-1 post-date">post date</div>
+                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading..</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+
+    <footer class="py-5 bg-dark text-white">
+      <div class="footer-container container">
+
+        <div class="row">
+
+          <div class="col-sm-4 col-md-3 ">
+            <h4><b>About Us</b></h4>
+            <div class="list-div">
+              <div class="footer-list">
+                <a href="#" class="footer-list-text">About the Quill</a>
+              </div>
+              <div class="footer-list">
+                <a href="#" class="footer-list-text">Contact Us</a>
+              </div>
+              <div class="footer-list">
+                <a href="#" class="footer-list-text">Our Team</a>
+              </div>
+              <div class="footer-list">
+                <a href="#" class="footer-list-text">Testimonials</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-md-3 ">
+            <h4><b>Guides</b></h4>
+            <div class="list-div">
+              <div class="footer-list">
+                <a href="#" class="footer-list-text">How it works?</a>
+              </div>
+              <div class="footer-list">
+                <a href="#" class="footer-list-text">Career</a>
+              </div>
+              <div class="footer-list">
+                <a href="#" class="footer-list-text">Privacy Policy</a>
+              </div>
+              <div class="footer-list">
+                <a href="#" class="footer-list-text">Terms & Conditions</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-md-3 ">
+            <h4><b>Support</b></h4>
+            <div class="list-div">
+              <div class="footer-list">
+                <a href="#" class="footer-list-text">Parental Guidance</a>
+              </div>
+              <div class="footer-list">
+                <a href="#" class="footer-list-text">Cookies</a>
+              </div>
+              <div class="footer-list">
+                <a href="#" class="footer-list-text">Advertise with us</a>
+              </div>
+              <div class="footer-list">
+                <a href="#" class="footer-list-text">News Letter SignUp</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="follow-div col-sm-12 col-md-3">
+            <h4><b>Follow us</b></h4>
+            <div class="list-div row">
+              <div class="col-auto">
+                <i class="fa-brands fa-facebook fa-2x"></i>
+              </div>
+              <div class="col-auto">
+                <i class="fa-brands fa-instagram fa-2x"></i>
+              </div>
+              <div class="col-auto">
+                <i class="fa-brands fa-whatsapp fa-2x"></i>
+              </div>
+              <div class="col-auto">
+                <i class="fa-brands fa-twitter fa-2x"></i>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div class="phone">
+    <div class="">
+      <header class="blog-header">
+        <nav class="navbar navbar-ldark bg-dark">
+          <div class="container-fluid row">
+            <div class="col-3 nav-img-column">
+              <img class="logo-img" src="dribble\quill-pen-LOGO.png" alt="logo">
+            </div>
+            <div class="name col-6">
+              <h1>The Quill</h1>
+            </div>
+            <div class="col-3">
+              <button class="navbar-toggler phone-nav-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+            </div>
+
+          </div>
+
+
+          <div class="nav-links-div">
+            <button class="navbar-toggler inside-nav-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span><i class="fa-solid fa-xmark"></i></span>
+            </button>
+            <ul class="nav nav-pills flex-column mb-auto">
+              <a class="p-2 nav-link phone-nav-link" href="#">World</a>
+              <a class="p-2 nav-link phone-nav-link" href="#">Sports</a>
+              <a class="p-2 nav-link phone-nav-link" href="#">Politics</a>
+              <a class="p-2 nav-link phone-nav-link" href="#">Fashion</a>
+              <a class="p-2 nav-link phone-nav-link" href="#">Science & Tech</a>
+              <a class="p-2 nav-link phone-nav-link" href="#">Food</a>
+              <a class="p-2 nav-link phone-nav-link" href="#">TV & Movies</a>
+              <a class="p-2 nav-link phone-nav-link" href="#">Weather</a>
+            </ul>
+          </div>
+
+        </nav>
+      </header>
+    </div>
+
+    <main class="">
+      <div class="trending-container">
+        <img class="trending-img" src="dribble\home.jpg" alt="home">
+        <div class="trending-bottom-text">
+          <div class="trending-text">
+            <h3 class="">Title of currently trending gist</h3>
+            <p class="trending-continue"><a href="#" class="text-white fw-bold stretched-link">Continue reading...</a></p>
+          </div>
+        </div>
+        <div class="trending-top-text">TRENDING</div>
+      </div>
+
+      <!-- CAROUSEL -->
+      <div class="container-fluid py-1 bg-dark carousel-container">
+
+        <!--start code-->
+        <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-4">
+                  <p class="carousel-categories">World</p>
+                </div>
+                <div class="col-8">
+                  <p class="carousel-text">This is a basic bootstrap sorce code for make responsive magazine breaking news carousel</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-4">
+                  <p class="carousel-categories">Sports</p>
+                </div>
+                <div class="col-8">
+                  <p class="carousel-text">This is a basic bootstrap sorce code for make responsive magazine breaking news carousel</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-4">
+                  <p class="carousel-categories">Politics</p>
+                </div>
+                <div class="col-8">
+                  <p class="carousel-text">This is a basic bootstrap sorce code for make responsive magazine breaking news carousel</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-4">
+                  <p class="carousel-categories">Fashion</p>
+                </div>
+                <div class="col-8">
+                  <p class="carousel-text">This is a basic bootstrap sorce code for make responsive magazine breaking news carousel</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-4">
+                  <p class="carousel-categories">Science</p>
+                </div>
+                <div class="col-8">
+                  <p class="carousel-text">This is a basic bootstrap sorce code for make responsive magazine breaking news carousel</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-4">
+                  <p class="carousel-categories">Food</p>
+                </div>
+                <div class="col-8">
+                  <p class="carousel-text">This is a basic bootstrap sorce code for make responsive magazine breaking news carousel</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-4">
+                  <p class="carousel-categories">Movies</p>
+                </div>
+                <div class="col-8">
+                  <p class="carousel-text">This is a basic bootstrap sorce code for make responsive magazine breaking news carousel</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-4">
+                  <p class="carousel-categories">Weather</p>
+                </div>
+                <div class="col-8">
+                  <p class="carousel-text">This is a basic bootstrap sorce code for make responsive magazine breaking news carousel</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!--end code-->
+      </div>
+      <!-- CAROUSEL ENDING -->
+
+      <div class="container">
+
+        <div class="World-and-sports">
+          <div class="row mb-2">
+
+            <div class="col-md-6">
+              <div class="card my-4" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-4">
+                    <img src="dribble\world.jpg" alt="thumbnail" class="card-img img-fluid rounded-start">
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <strong class="d-inline-block mb-2 card-categories-text">World</strong>
+                      <h3 class="mb-0">Post Title</h3>
+                      <div class="mb-1 post-date">post date</div>
+                      <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="stretched-link">Continue reading..</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card my-4" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-4">
+                    <img src="dribble\sport1.jpg" alt="thumbnail" class="card-img img-fluid rounded-start">
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <strong class="d-inline-block mb-2 card-categories-text">Sports</strong>
+                      <h3 class="mb-0">Post Title</h3>
+                      <div class="mb-1 post-date">post date</div>
+                      <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="stretched-link">Continue reading..</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+        <div class="politics-and-fashion">
+          <div class="row mb-2">
+
+            <div class="col-md-6">
+              <div class="card my-4" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-4">
+                    <img src="dribble\politics.jpg" alt="thumbnail" class="card-img img-fluid rounded-start">
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <strong class="d-inline-block mb-2 card-categories-text">Politics</strong>
+                      <h3 class="mb-0">Post Title</h3>
+                      <div class="mb-1 post-date">post date</div>
+                      <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="stretched-link">Continue reading..</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card my-4" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-4">
+                    <img src="dribble\fashion.jpg" alt="thumbnail" class="card-img img-fluid rounded-start">
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <strong class="d-inline-block mb-2 card-categories-text">Fashion</strong>
+                      <h3 class="mb-0">Post Title</h3>
+                      <div class="mb-1 post-date">post date</div>
+                      <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="stretched-link">Continue reading..</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <div class="science-tech-and-food">
+          <div class="row mb-2">
+
+            <div class="col-md-6">
+              <div class="card my-4" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-4">
+                    <img src="dribble\tech3.jpg" alt="thumbnail" class="card-img img-fluid rounded-start">
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <strong class="d-inline-block mb-2 card-categories-text">Science & Tech</strong>
+                      <h3 class="mb-0">Post Title</h3>
+                      <div class="mb-1 post-date">post date</div>
+                      <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="stretched-link">Continue reading..</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card my-4" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-4">
+                    <img src="dribble\food.jpg" alt="thumbnail" class="card-img img-fluid rounded-start">
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <strong class="d-inline-block mb-2 card-categories-text">Food</strong>
+                      <h3 class="mb-0">Post Title</h3>
+                      <div class="mb-1 post-date">post date</div>
+                      <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="stretched-link">Continue reading..</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <div class="tv-movies-and-weather">
+          <div class="row mb-2">
+
+            <div class="col-md-6">
+              <div class="card my-4" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-4">
+                    <img src="dribble\movie1.jpg" alt="thumbnail" class="card-img img-fluid rounded-start">
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <strong class="d-inline-block mb-2 card-categories-text">TV & Movies</strong>
+                      <h3 class="mb-0">Post Title</h3>
+                      <div class="mb-1 post-date">post date</div>
+                      <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="stretched-link">Continue reading..</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card my-4" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-4">
+                    <img src="dribble\weather.jpg" alt="thumbnail" class="card-img img-fluid rounded-start">
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <strong class="d-inline-block mb-2 card-categories-text">Weather</strong>
+                      <h3 class="mb-0">Post Title</h3>
+                      <div class="mb-1 post-date">post date</div>
+                      <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="stretched-link">Continue reading..</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+    </main>
+
+
+    <footer class="py-5 bg-dark text-white">
+      <div class="footer-container container">
+
+        <div class="row">
+
+          <div class="col-12">
+            <h4><b>About Us</b></h4>
+            <hr class="footer-hr">
+            <div class="list-div row">
+              <div class="footer-list col-6">
+                <a href="#" class="footer-list-text">About the Quill</a>
+              </div>
+              <div class="footer-list col-6">
+                <a href="#" class="footer-list-text">Contact Us</a>
+              </div>
+              <div class="footer-list col-6">
+                <a href="#" class="footer-list-text">Our Team</a>
+              </div>
+              <div class="footer-list col-6">
+                <a href="#" class="footer-list-text">Testimonials</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="follow-div col-12">
+            <h4><b>Socials</b></h4>
+            <hr class="footer-hr">
+            <div class="list-div row">
+              <div class="col-6">
+                <p class="icon-text-facebook"><i class="fa-brands fa-facebook"></i> facebook</p>
+              </div>
+              <div class="col-6">
+                <p class="icon-text-instagram"><i class="fa-brands fa-instagram"></i> instagram</p>
+              </div>
+              <div class="col-6">
+                <p class="icon-text-whatsapp"><i class="fa-brands fa-whatsapp"></i> whatsapp</p>
+              </div>
+              <div class="col-6">
+                <p class="icon-text-twitter"><i class="fa-brands fa-twitter"></i> twitter</p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <hr class="copy-hr-1">
+      <hr class="copy-hr-2">
+      <div class="copy-right">
+        <p>2022 © Isiah's First Blog | All Rights Reserved</p>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
