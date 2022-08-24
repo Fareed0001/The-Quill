@@ -1,4 +1,4 @@
-if (window.matchMedia("(max - width: 768 px)").matches) {
+if (window.matchMedia("(max-width: 768px)").matches) {
   // NAVBAR
   $(".nav-img-column").removeClass("col-1").addClass("col-2");
   $(".nav-link-col").removeClass("col-11").addClass("col-10");
@@ -15,7 +15,10 @@ if (window.matchMedia("(max - width: 768 px)").matches) {
   $(".col-auto.d-lg-block").removeClass("d-none");
   // FOOTER
   $(".footer-container").removeClass("container");
+  // CARDS
+  $("col-auto.d-none.d-lg-block").removeClass("d-none");
 }
+
 
 // PHONE
 if (window.matchMedia("(max-width: 479px)").matches) {
